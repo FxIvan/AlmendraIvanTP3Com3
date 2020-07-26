@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const fs = require('fs')
 
-app.listen(3040 , ()=> console.log('Servidor levantado por el puerto 3040'))
+app.listen(3030 , ()=> console.log('Servidor levantado por el puerto 3030'))
 
 const rutaHome = require('./routes/home')
 const rutaSucursal = require('./routes/sucursales')
